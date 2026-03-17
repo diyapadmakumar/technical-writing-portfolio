@@ -28,4 +28,4 @@ This API performs an Atomic Inventory Check to prevent overselling.
 - 409 Conflict: Item sold out during processing (Inventory mismatch).
 - 422 Unprocessable Entity: ID format doesn't match prod_xxx.
 
-Link back to main docs: 
+Link back to main docs: [Go to the Full API Reference](./README.md)
