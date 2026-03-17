@@ -1,3 +1,5 @@
+New here? Start with the [Quickstart Guide](./QUICKSTART.md)
+
 # Barbie Store API Reference (v1.2.0)
 
 This document provides technical specifications for the Barbie Store API. This service uses a RESTful architecture, ISO 8601 timestamps, and follows RFC 7807 standards for error reporting.
