@@ -21,7 +21,7 @@ This document provides technical specifications for the Barbie Store API. This s
 
 **Description**
 
-Helps you fetch details according to the product ID.
+Retrieves the details of a single product by its unique ID, including name, price, category, and current stock level.
 
 **Path Parameters**
 
@@ -56,7 +56,7 @@ _**Example Request**_
   "type": "https://api.barbiestore.com/errors/not-found",
   "title": "Resource Not Found",
   "status": 404,
-  "detail": "The product ID does not match with the required prefix 'prod_'.",
+  "detail": "No product with ID prod_999 exists.",
   "help": "Ensure your ID starts with 'prod_' followed by a three-digit number.",
   "instance": "/products/prod_999"
 }
@@ -66,7 +66,7 @@ _**Example Request**_
 
 **Description**
 
-Performs a manual override of the stock inventory for a specific resource.
+Updates the stock inventory for the product identified by ```product_id```.
 
 **Business Logic**
 
@@ -117,7 +117,7 @@ Returns a list of all orders. Supports filtering by the status of the order.
 
 | Parameters | Type | Required | Description |
 |------------|------|----------|-------------|
-| order_status | string | no | Filter orders by status (Pending, Confirmed, Shipped, Delivered).|
+| order_status | string | no | Filter orders by status (pending, confirmed, shipped, delivered, cancelled).|
 
 **_Example Request_**
 
