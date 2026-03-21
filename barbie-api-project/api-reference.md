@@ -1,4 +1,4 @@
-New here? Start with the [Quickstart Guide](./QUICKSTART.md)
+New here? Start with the [Quickstart Guide](./quickstart.md)
 
 # Barbie Store API Reference (v1.2.0)
 
