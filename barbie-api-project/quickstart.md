@@ -22,7 +22,12 @@ curl -X GET "https://api.barbiestore.com/v1/products/prod_101"
 ## Step 2: Place Your First Order
 This API performs an Atomic Inventory Check to prevent overselling.
 
-```curl -X POST "https://api.barbiestore.com/v1/orders" -H "Authorization: Bearer YOUR_ACCESS_TOKEN" -H "Content-Type: application/json" -d '{"product_ids": ["prod_101", "prod_105"]}'```
+```
+curl -X POST "https://api.barbiestore.com/v1/orders" 
+  -H "Authorization: Bearer YOUR_ACCESS_TOKEN" 
+  -H "Content-Type: application/json" 
+  -d '{"product_ids": ["prod_101", "prod_105"]}'
+```
 
 ## Troubleshooting (RFC 7807)
 
