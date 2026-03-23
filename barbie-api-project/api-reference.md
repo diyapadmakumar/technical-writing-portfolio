@@ -68,6 +68,12 @@ _**Example Request**_
 
 Updates the stock inventory for the product identified by ```product_id```.
 
+**Path Parameters**
+
+| Parameters | Type | Required | Description |
+|------------|------|----------|-------------|
+| product_id | string | required | The unique ID of the product. Must match `^prod_[0-9]{3}$`|
+
 **Business Logic**
 
 - This endpoint is intended for manual restocks or inventory corrections.

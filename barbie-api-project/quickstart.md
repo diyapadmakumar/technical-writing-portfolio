@@ -14,8 +14,10 @@ Include your Bearer Token in your header for every call.
 
 ## Step 1: Browse the Catalog
 Run this to fetch a product. Note: IDs must follow the `prod_001` format. \
-```curl -X GET "https://api.barbiestore.com/v1/products/prod_101" -H```\
-```"Authorization: Bearer YOUR_ACCESS_TOKEN"```
+```
+curl -X GET "https://api.barbiestore.com/v1/products/prod_101" \
+  -H "Authorization: Bearer YOUR_ACCESS_TOKEN"
+```
 
 ## Step 2: Place Your First Order
 This API performs an Atomic Inventory Check to prevent overselling.
