@@ -10,7 +10,7 @@ This document provides technical specifications for the Barbie Store API. This s
 
 - Content-Type: ```application/json```
 
-- Authentication: All write operations (POST) require a Bearer Token.
+- Authentication: Authentication: All write operations (POST) require a Bearer Token. Unauthorized requests return a 401 Unauthorized response. See the [error guide](./error-reference-guide.md).
 
 - Date Format: All timestamps are returned in UTC.
 
