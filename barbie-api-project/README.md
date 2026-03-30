@@ -10,7 +10,10 @@ Explore the different sections of the documentation below:
 
 2. **[API Reference](./api-reference.md)** *Detailed technical specifications for every endpoint, parameter, and response.*
 
+3. **[Style Guide](./style-guide.md)** *Audience persona, voice and tone benchmarks, and the technical rationale behind our terminology choices.*
+
 3. **[Error Reference Guide](./error-reference-guide.md)** *A complete guide to HTTP status codes and resolution steps.*
+
 
 ---
 
