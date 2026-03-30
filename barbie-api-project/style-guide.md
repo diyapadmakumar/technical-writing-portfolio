@@ -1,6 +1,7 @@
 # Barbie Store API Style Guide
 **Version:** 1.2.0  
 **Owner:** Diya
+**Last Updated:** 03/30/2026
 
 This guide defines the standards for all Barbie Store API documentation. It ensures that our content is accessible, high-trust, and optimized for developer success.
 
@@ -18,9 +19,9 @@ We use a **"Helpful Expert"** voice. We are precise like an engineer, but encour
 
 | Rule | ✗ Avoid This | ✓ Use This |
 | :--- | :--- | :--- |
-| **Be Direct** | Execute the request to observe the product resource. | **Run this request to get product details.** |
-| **Minimize Jargon** | Utilize the Bearer token to authorize the session. | **Use your token to authenticate.** |
-| **Active Ownership** | An error will be returned by the system. | **The API returns an error.** |
+| **Be Direct** | Execute the request to observe the product resource. | Run this request to get product details. |
+| **Minimize Jargon** | Utilize the Bearer token to authorize the session. | Use your token to authenticate. |
+| **Active Ownership** | An error will be returned by the system. | The API returns an error. |
 
 ---
 
