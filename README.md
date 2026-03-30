@@ -1,5 +1,5 @@
 # Hi, I'm Diya!
-**Technical Writer | API Documentation Specialist | Content Architect**
+**Technical Writer | API Documentation Specialist**
 
 I specialize in bridging the gap between complex engineering concepts and end-user success. My work focuses on creating clear, concise, and developer-friendly documentation that reduces friction and accelerates integration.
 
