@@ -33,4 +33,4 @@ curl -X POST "https://api.barbiestore.com/v1/orders"
 
 If your request fails, please refer to our [Full Error Reference Guide](./error-reference-guide.md) for detailed resolution steps.
 
-Link back to main docs: [Go to the Full API Reference](./api-reference.md)
+## Link back to main docs: [Go to the Full API Reference](./api-reference.md)
