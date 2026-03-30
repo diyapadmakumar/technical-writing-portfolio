@@ -31,7 +31,7 @@ curl -X GET "https://api.barbiestore.com/v1/products/prod_101"
 **Common Error (401 Unauthorized)**
 ```
 {
-  "type": "[https://api.barbiestore.com/errors/unauthorized](https://api.barbiestore.com/errors/unauthorized)",
+  "type": "https://api.barbiestore.com/errors/unauthorized",
   "title": "Unauthorized Access",
   "status": 401,
   "detail": "Bearer token is missing or invalid."
@@ -49,9 +49,14 @@ curl -X POST "https://api.barbiestore.com/v1/orders"
 **Expected Success (201 Created)**
 ```
 {
-  "order_id": "order_005",
-  "status": "pending",
-  "total_amount": 249.98
+  "message": "Order created successfully.",
+  "data": {
+    "order_id": "order_005",
+    "product_ids": ["prod_101", "prod_105"],
+    "total_amount": 249.98,
+    "order_status": "pending",
+    "created_at": "2026-03-30T14:20:00Z"
+  }
 }
 ```
 ## Troubleshooting (RFC 7807)
