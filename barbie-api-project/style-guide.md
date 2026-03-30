@@ -1,6 +1,6 @@
 # Barbie Store API Style Guide
 **Version:** 1.2.0  
-**Owner:** Diya
+**Owner:** Diya \
 **Last Updated:** 03/30/2026
 
 This guide defines the standards for all Barbie Store API documentation. It ensures that our content is accessible, high-trust, and optimized for developer success.
