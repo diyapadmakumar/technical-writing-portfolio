@@ -31,8 +31,6 @@ curl -X POST "https://api.barbiestore.com/v1/orders"
 
 ## Troubleshooting (RFC 7807)
 
-- 401 Unauthorized: Missing or invalid token.
-- 409 Conflict: Item sold out during processing (Inventory mismatch).
-- 422 Unprocessable Entity: ID format doesn't match ```prod_001```.
+If your request fails, please refer to our [Full Error Reference Guide](./error-reference-guide.md) for detailed resolution steps.
 
 Link back to main docs: [Go to the Full API Reference](./api-reference.md)
