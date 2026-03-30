@@ -110,6 +110,16 @@ Updates the stock inventory for the product identified by ```product_id```.
   ]
 }
 ```
+**Error Response (401 Unauthorized)**
+```
+{
+  "type": "https://api.barbiestore.com/errors/unauthorized",
+  "title": "Unauthorized Access",
+  "status": 401,
+  "detail": "Bearer token is missing, invalid, or expired.",
+  "help": "Ensure your request includes an 'Authorization' header with a valid 'Bearer' token."
+}
+```
 
 ## 2. Order Fulfillment
 
@@ -207,5 +217,15 @@ Creates a new order in the Barbie Store. The system automatically calculates the
   "status": 409,
   "detail": "One or more items in the 'product_ids' list exceed current inventory levels or do not exist.",
   "help": "Verify that all product IDs start with 'prod_' and exist in the Products table."
+}
+```
+**Error Response (401 Unauthorized)**
+```
+{
+  "type": "https://api.barbiestore.com/errors/unauthorized",
+  "title": "Unauthorized Access",
+  "status": 401,
+  "detail": "Bearer token is missing, invalid, or expired.",
+  "help": "Ensure your request includes an 'Authorization' header with a valid 'Bearer' token."
 }
 ```
