@@ -7,7 +7,7 @@ I specialize in bridging the gap between complex engineering concepts and end-us
 
 ## Featured Projects
 
-| Project | Description | Documentation Links |
+| Projects | Description | Documentation Links |
 | :--- | :--- | :--- |
 | **Barbie Store API** | A comprehensive documentation suite for a retail REST API, featuring RFC 7807 error handling. | [View Full Documentation](./barbie-api-project/) |
 | **Project 2** | Coming soon | Still building |
