@@ -63,7 +63,7 @@ curl -X POST "https://api.barbiestore.com/v1/orders" \
 
 If your request fails, please refer to our [Full Error Reference Guide](./error-reference-guide.md) for detailed resolution steps.
 
-What's Next?
+## What's Next?
 - Now that you've placed your first order, explore these advanced workflows:
 
 * **[Update your inventory](./api-reference.md#b-post-productsproduct_idstock)** – Learn how to manually sync stock levels.
